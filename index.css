@@ -171,10 +171,10 @@ body header a {
   /* background-color: grey; */
   text-align: left;
   left: 70%;
-  padding: 2em;
+  padding: 0.5em;
   font-weight: normal;
-  font-size: 1.3rem;
-  line-height: 1.5rem;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
   border-top: 1px solid black;
 }
 
