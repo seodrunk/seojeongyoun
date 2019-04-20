@@ -175,7 +175,7 @@ body header a {
   font-weight: normal;
   font-size: 1.3rem;
   line-height: 1.5rem;
-  border-top: 1px solid black;
+/*  border-top: 1px solid black;*/
 }
 
 .project-content {}
