@@ -132,7 +132,9 @@ body header a {
 }
 
 .project.active {
-  cursor: ew-resize;
+  cursor: grabbing;
+  cursor: -webkit-grabbing;
+
 }
 
 .project {
@@ -145,6 +147,7 @@ body header a {
   white-space: nowrap;
   overflow-y: hidden;
   overflow-x: scroll;
+  cursor: ew-resize;
 }
 
 .project-item {
