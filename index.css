@@ -105,6 +105,12 @@ body header a {
     text-decoration: none;
   }
 
+  a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 .info img {
   width: 250px;
   height: 250px;
