@@ -167,6 +167,14 @@ body header a {
   height: 100%;
 }
 
+img {
+  -webkit-user-drag: none;
+  -khtml-user-drag: none;
+  -moz-user-drag: none;
+  -o-user-drag: none;
+  user-drag: none;
+}
+
 .project-description {
   position: absolute;
   display: block;
