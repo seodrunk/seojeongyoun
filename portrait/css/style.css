@@ -1,0 +1,100 @@
+/* @group html5doctor.com reset stylesheet v1.6.1 */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+
+body {font-family: 'Times New Roman', Times, serif; font-size: 17px; line-height: 19px; letter-spacing: 2px; word-spacing: 1px; color: #000; background: #fff;}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+nav ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: ''; content: none;}
+a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+ins {background-color: #ff9; color: #000; text-decoration: none;}
+mark {background-color: #ff9; color: #000; font-style: italic; font-weight: bold;}
+del {text-decoration: line-through;}
+abbr[title], dfn[title] {border-bottom: 1px dotted;}
+table {border-collapse: collapse; border-spacing: 0;}
+hr {display: block; height: 1px; border: 0; border-top: 1px solid #cccccc; margin: 1em 0; padding: 0;}
+input, select {vertical-align: middle;}
+/* @end */
+
+
+/* @group divs */
+body {overflow-x:hidden;}
+
+.container-order {list-style: none; width: 800px; margin: 0 auto; text-align: center; padding-top: 40px;}
+.container-order li {padding-bottom: 60px;}
+
+.container-chaos {list-style: none; width: 100%; height: 7000px; overflow: hidden; position: relative;}
+.container-chaos li {position: absolute; z-index: 1;}
+.container-chaos li a {display: block; padding: 0; border: 0;}
+.container-chaos li img {margin: 0; padding: 0; outline: 0;}
+.container-chaos .huge {display: none; position: absolute; top: 0; left: 0;}
+
+#content, #info, #navi, #imprint {position: fixed; z-index: 40000;}
+#content {top: 40px; left: 40px; letter-spacing: 2px; line-height: 27px;}
+#info {top: 40px; right: 40px; text-align: right;}
+#navi {bottom: 20px; left: 40px; list-style: none;}
+#imprint {bottom: 20px; right: 40px; list-style: none;}
+
+#navi li, #imprint li {margin-bottom: 3px; padding-bottom: 1px;}
+#navi .active a, #imprint .active a {border-bottom: 1px solid #000; padding: 0;}
+
+
+.error {color: red;}
+.infinite_navigation {display: none;}
+/* @end */
+
+
+/* @group typo */
+h1, h2 {font-size: 26px; font-style: normal; font-weight: 500;}
+/* @end */
+
+
+/* @group navigation, links */
+a:link, a:visited, a:hover {color: #000; text-decoration: none;}
+a:hover {border: 1px solid #000; padding: 0;}
+/* @end */
+
+
+/* @group html5 magic */
+::-moz-selection {background:#000; color:#fff; text-shadow:none;}
+::selection {background:#000; color:#fff; text-shadow:none;}
+/* @end */
+
+p {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 50px;
+  margin: auto;
+  /* letter-spacing: -0.10rem; */
+  color: black;
+}
+
+
+
+.center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+}
+@media only screen and (max-width: 600px) {
+  .center {
+    width: 100vw;
+  }
+  p#demo {
+    /* position: fixed; */
+    margin-top: 20px;
+    font-size: 40px;
+  }
+}
