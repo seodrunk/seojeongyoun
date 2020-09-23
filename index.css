@@ -75,7 +75,6 @@ body header span,a {
 
 body header a {
 	cursor: pointer;
-  text-decoration: underline;
 }
 
 
@@ -83,30 +82,32 @@ body header a {
   color: blue; } */
 
   a {
-    color: blue;
+    color: black;
   }
 
   a {
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   a:visited {
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   a:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   a:focus {
-    text-decoration: underline;
+    text-decoration: none;
   }
 
   a:hover, a:active {
-    text-decoration: underline;
+    text-decoration: none;
   }
 
-
+#paperportrait {
+  text-decoration: underline;
+}
 
 .info img {
   width: 250px;
