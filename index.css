@@ -69,7 +69,7 @@ body header {
   /* visibility: hidden; */
 }
 
-body header span a {
+body header span,a {
   margin-right: 3%;
 }
 
