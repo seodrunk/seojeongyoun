@@ -108,7 +108,6 @@ body header a {
   a:hover {
     color: blue;
     text-decoration: underline;
-    text-decoration: none;
   }
 
   a:focus {
