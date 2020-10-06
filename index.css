@@ -195,8 +195,8 @@ img {
     margin-left: 0;
     /* margin-bottom: 0.5%; */
     /* position: relative; */
-    width: auto;
-    height: 300px;
+    width: 100%;
+    height: auto;
     /* border: 1px solid black; */
     white-space: nowrap;
     overflow-y: hidden;
@@ -206,14 +206,29 @@ img {
 
 @media screen and (max-width: 815px) {
   .project-item {
-    width: auto;
-    height: 295px;
-    display: inline-block;
+    width: 100%;
+    height: auto;
+    display: flex;
+    padding: 0 0.2em 0.2em 0.2em;
     /* overflow: hidden; */
     /* border: 1px solid black; */
     /* margin: 0 0 0% 0%; */
     position: relative;
   }
+}
+
+@media screen and (max-width: 815px) {
+.project-item img {
+  width: 100%;
+  height: auto;
+}
+}
+
+@media screen and (max-width: 815px) {
+.project-item video {
+  width: 100%;
+  height: auto;
+}
 }
 
 @media screen and (max-width: 815px) {
