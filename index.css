@@ -84,7 +84,7 @@ body header {
 }
 
 body header span,a {
-  margin-right: 3%;
+
 }
 
 body header a {
@@ -218,18 +218,6 @@ img {
 
 
 @media screen and (max-width: 815px) {
-  body header {
-    position: relative;
-    width: 70%;
-    /* background-color: grey; */
-    margin: 10px;
-    line-height: 1em;
-    font-size: 1.2em;
-    color: black;
-  }
-}
-
-@media screen and (max-width: 815px) {
   .project-content {
     visibility: hidden;
 
@@ -287,11 +275,13 @@ img {
 }
 
 @media only screen and (max-width: 815px) {
-  body header span,a {
-    display: block;
-    margin-right: auto;
-    line-height: 1.5rem;
-    color: blue;
+  .col2 {
+    position: relative;
+  /* right: 0; */
+  /* background-color: white; */
+  width: 70%;
+  padding: 5px 5px 5px 5px;
+  z-index: 99999;
   }
 }
 
