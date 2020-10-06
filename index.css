@@ -36,7 +36,7 @@ body {
 /* right: 0; */
 /* background-color: white; */
 width: 25%;
-padding: 5px 5px 15px 10px;
+padding: 5px 5px 5px 5px;
 z-index: 99999;
 }
 
@@ -79,9 +79,6 @@ body header {
   height: auto;
   /* background-color: grey; */
   margin: 10px;
-  font-weight: normal;
-  font-size: 1.1rem;
-  line-height: 1rem;
   color: black;
   /* visibility: hidden; */
 }
@@ -204,9 +201,9 @@ img {
   text-align: left;
   left: 70%;
   padding: 0.5em;
-  font-weight: normal;
+  /* font-weight: normal;
   font-size: 1.3rem;
-  line-height: 1.65rem;
+  line-height: 1.65rem; */
   border-top: 1px solid black;
 }
 
@@ -232,8 +229,8 @@ img {
     width: auto;
     /* background-color: grey; */
     margin: 10px;
-    line-height: 1.2em;
-    font-size: 1.4em;
+    line-height: 0.6em;
+    font-size: 0.8em;
     color: black;
   }
 }
@@ -263,8 +260,8 @@ img {
     text-align: left;
     left: 0;
     padding: 0.5em;
-    font-size: 1.1rem;
-    line-height: 1.3rem;
+    font-size: 0.6rem;
+    line-height: 0.8rem;
     border-top: 0px solid black;
   }
 }
