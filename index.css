@@ -84,7 +84,7 @@ body header {
 }
 
 body header span,a {
-  
+
 }
 
 body header a {
@@ -108,7 +108,7 @@ body header a {
   a:hover {
     color: blue;
     text-decoration: underline;
-    text-decoration: none;
+
   }
 
   a:focus {
