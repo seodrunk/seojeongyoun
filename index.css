@@ -222,7 +222,7 @@ background-color: grey;
 @media screen and (max-width: 815px) {
 .project-item img {
   width: 100%;
-
+height: auto;
 }
 }
 
