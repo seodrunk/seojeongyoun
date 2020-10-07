@@ -49,6 +49,9 @@ z-index: 99999;
   	cursor: pointer;
 }
 
+.copyright {
+  right:0;
+}
 
 /* .close-button:hover {
 	border: 1px solid black;
