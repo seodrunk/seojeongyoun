@@ -211,7 +211,7 @@ img {
   .project-item {
     width: 100%;
     height: auto;
-background-color: grey;
+/* background-color: grey; */
     display: flex;
     padding: 0 0.2em 0.2em 0.2em;
     /* overflow: hidden; */
