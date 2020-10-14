@@ -166,7 +166,7 @@ img {
   .project-content {
     visibility: hidden;
 
-    height: 1px;
+    height: 0px;
   }
 }
 
