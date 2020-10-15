@@ -183,9 +183,10 @@ img {
     /* background-color: grey; */
     text-align: left;
     left: 0;
-    /* padding: 0.5 0 0em 0.5em; */
+    padding: 0.5em 0 0 0;
     font-size: 0.4rem;
     line-height: 0.6rem;
+    margin: 0.2em 0.75em 1.5em 0.75em;
     border-top: 0px solid black;
   }
 }
@@ -197,6 +198,7 @@ img {
     /* position: relative; */
     width: 100%;
     height: auto;
+    padding: 0.5em;
     /* border: 1px solid black; */
     white-space: nowrap;
     overflow-y: hidden;
