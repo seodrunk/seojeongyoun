@@ -166,17 +166,13 @@ img {
 
 @media screen and (max-width: 815px) {
   .project-content {
-    visibility: hidden;
 
-    height: 0px;
   }
 }
 
 @media screen and (max-width: 815px) {
   .project-year {
-    visibility: hidden;
 
-    height: 0px;
   }
 }
 
@@ -192,7 +188,6 @@ img {
     /* font-size: 0.6rem;
     line-height: 0.8rem; */
     border-top: 0px solid black;
-    visibility: hidden;
   }
 }
 
