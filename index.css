@@ -198,7 +198,7 @@ img {
     /* position: relative; */
     width: 100%;
     height: auto;
-    padding: 0.5em;
+    padding: 0em 0.5em 0 0.5em;
     /* border: 1px solid black; */
     white-space: nowrap;
     overflow-y: hidden;
