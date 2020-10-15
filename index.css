@@ -131,8 +131,7 @@ img {
 }
 
 .project-description {
-  position: absolute;
-  display: block;
+
   width: 30%;
   height: auto;
   /* background-color: grey; */
