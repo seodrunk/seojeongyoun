@@ -104,6 +104,7 @@ body header a {
   overflow-y: hidden;
   overflow-x: scroll;
   cursor: ew-resize;
+  float: left;
 }
 
 .project-item {
@@ -142,6 +143,7 @@ img {
   font-size: 1.3rem;
   line-height: 1.65rem; */
   border-top: 1px solid black;
+  float: left;
 }
 
 .project-content {}
