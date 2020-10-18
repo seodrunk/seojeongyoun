@@ -57,13 +57,13 @@ float: left;
 }
 
 .middle {
-  width: 62%;
-    padding: 0.5em 0.5em 0.5em 6em;
+  width: 57%;
+    padding: 0.5em 0.5em 0.5em 8em;
 
 }
 
 .right {
-  width: 10%;
+  width: 15%;
     padding: 0.5em 0 0.5em 0.5em;
 }
 
