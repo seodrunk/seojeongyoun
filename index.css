@@ -64,17 +64,8 @@ float: left;
 
 .right {
   width: 21%;
-    padding: 0.5em 0.5em 0.5em 0;
+    padding: 12em 0.5em 0.5em 0;
 text-align: right;
-}
-
-#right {
-  position: relative;
-}
-
-#right-content {
-  position: absolute;
-bottom: 0;
 }
 
 #bio {
