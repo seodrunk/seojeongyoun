@@ -73,6 +73,14 @@ bottom: 0;
   	cursor: pointer;
 }
 
+.bio left {
+width: 20%;
+}
+
+.bio {
+width: 80%;
+}
+
 .copyright {
   right:0;
 }
@@ -289,5 +297,11 @@ z-index: 99999;
   width: 100%;
     padding: 0.5em 0.5em 0.5em 0;
 text-align: left;
+}
+}
+
+@media screen and (max-width: 815px) {
+.bio {
+  text-align: right;
 }
 }
