@@ -53,18 +53,24 @@ float: left;
 
 .left {
   padding: 0.5em 0.5em 0.5em 0;
-  width: 28%;
+  width: 27%;
+  /* background-color: grey; */
 }
 
 .middle {
-  width: 57%;
-    padding: 0.5em 0.5em 0.5em 8em;
+  width: 40%;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    /* background-color: yellow; */
 
 }
 
 .right {
-  width: 15%;
+  width: 14%;
+  right:0;
     padding: 0.5em 0 0.5em 0.5em;
+    /* background-color: green; */
 }
 
 #bio {
@@ -288,7 +294,7 @@ z-index: 99999;
 .middle {
   width: 100%;
     padding: 0.5em 0.5em 0.5em 0;
-
+margin: 0;
 }
 }
 
