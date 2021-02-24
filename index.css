@@ -18,7 +18,7 @@ body {
 
 @font-face {
   font-family: 'SuisseIntl';
-  src: url('typeface/SuisseIntl-Regular.otf');
+  src: url('typeface/SuisseIntl-Regular.otf') format('opentype');
 }
 
 *::-webkit-scrollbar {
