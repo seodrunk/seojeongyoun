@@ -3,13 +3,22 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: 'SuisseIntl';
   font-weight: normal;
   font-size: 1.4rem;
   line-height: 1.6rem;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
+}
+
+@font-face {
+  font-family: 'SuisseIntl';
+  src: url('typeface/SuisseIntl-Regular.otf');
 }
 
 *::-webkit-scrollbar {
@@ -36,7 +45,7 @@ body {
 
 /* right: 0; */
 width: 100%;
-padding: 0.5em;
+padding: 0.6em;
 z-index: 99999;
 float: left;
 }
@@ -175,7 +184,7 @@ img {
   /* background-color: grey; */
   text-align: left;
   /* left: 70%; */
-  padding: 0.5em;
+  padding: 0.8em;
   /* font-weight: normal;
   font-size: 1.3rem;
   line-height: 1.65rem; */
@@ -198,6 +207,18 @@ img {
   cursor: pointer;
 }
 
+.copyright {
+  width: 70%;
+  float: left;
+  padding: 0.8em;
+}
+
+.top {
+  width: auto;
+float: left;
+
+padding: 0.8em;
+}
 
 
 
